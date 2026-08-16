@@ -4,5 +4,13 @@
     "ultracite/biome/core",
     "ultracite/biome/astro",
     "ultracite/biome/react"
+  ],
+  "overrides": [
+    {
+      "includes": ["**/components/ui/**"],
+      "linter": {
+        "enabled": false
+      }
+    }
   ]
 }
